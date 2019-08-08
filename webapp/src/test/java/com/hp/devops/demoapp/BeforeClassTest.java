@@ -16,7 +16,7 @@ public class BeforeClassTest {
 	@Before
 	public void beforeEach() {
 	    if (counter == 0) {
-            Assert.assertNotNull("a");
+            Assert.assertNotNull(null);
         }
 		counter++;
 	}
