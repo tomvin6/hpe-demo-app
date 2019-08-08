@@ -9,16 +9,16 @@ public class BeforeClassTest {
 
 	@BeforeClass
 	public static void beforeAll() {
-		Assert.assertNotNull(null);
+		Assert.assertNotNull("a");
 	}
 
 	@Test
-	public void passed1() {
+	public void BeforeClassTest() {
 		Assert.assertNotNull("aaa");
 	}
 
 	@Test
-	public void passed2() {
+	public void beforeClassTest() {
 		Assert.assertNotNull("aaa");
 	}
 }
