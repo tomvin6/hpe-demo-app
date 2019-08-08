@@ -13,12 +13,17 @@ public class BeforeClassTest {
 	}
 
 	@Test
-	public void BeforeClassTest() {
+	public void passed1() {
 		Assert.assertNotNull("aaa");
 	}
 
 	@Test
-	public void beforeClassTest() {
+	public void passed2() {
 		Assert.assertNotNull("aaa");
+	}
+
+	@Test
+	public void failed1() {
+		Assert.assertNotNull(null);
 	}
 }
