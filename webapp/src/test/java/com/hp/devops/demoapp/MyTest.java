@@ -5,11 +5,13 @@ import org.junit.*;
 /**
  * check reports in case of failures in BeforeClass
  */
-public class BeforeClassTest {
+public class MyTest {
 
 	@BeforeClass
 	public static void beforeAll() {
-		Assert.assertNotNull(null);
+//		Assert.assertNotNull(null);
+		String str = null;
+		System.out.println(str.length());
 	}
 
 	@Test
