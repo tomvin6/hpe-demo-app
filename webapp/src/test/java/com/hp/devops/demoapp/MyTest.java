@@ -9,7 +9,7 @@ public class MyTest {
 
 	@BeforeClass
 	public static void beforeAll() {
-//		Assert.assertNotNull(null);
+		Assert.assertNotNull(null);
 //		String str = null;
 //		System.out.println(str.length());
 	}
