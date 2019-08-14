@@ -30,5 +30,3 @@ public class MyTest {
 	}
 }
 
-
-
