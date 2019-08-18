@@ -29,10 +29,3 @@ public class MyTest {
 		Assert.assertNotNull(null);
 	}
 }
-
-
-
-
-
-
-
