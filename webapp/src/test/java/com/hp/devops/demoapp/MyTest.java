@@ -26,7 +26,7 @@ public class MyTest {
 
 	@Test
 	public void failed1() {
-		Assert.assertNotNull("d");
+		Assert.assertNotNull(null);
 	}
 }
 
