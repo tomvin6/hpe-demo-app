@@ -28,6 +28,11 @@ public class MyTest {
 	public void failed1() {
 		Assert.assertNotNull(null);
 	}
+
+	@Test
+	public void failed2() {
+		Assert.assertNotNull(null);
+	}
 }
 
 
