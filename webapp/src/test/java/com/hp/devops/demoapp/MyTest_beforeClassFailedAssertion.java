@@ -5,13 +5,11 @@ import org.junit.*;
 /**
  * check reports in case of failures in BeforeClass
  */
-public class MyTest {
+public class MyTest_beforeClassFailedAssertion {
 
 	@BeforeClass
-	public static void beforeAll() {
-//		Assert.assertNotNull(null);
-//		String str = null;
-//		System.out.println(str.length());
+	public static void beforeAll_assertion() {
+		Assert.assertNotNull(null);
 	}
 
 	@Test
@@ -25,12 +23,13 @@ public class MyTest {
 	}
 
 	@Test
-	public void failed1() {
+	public void failed_Assertion() {
 		Assert.assertNotNull(null);
 	}
 
 	@Test
-	public void failed2() {
-		Assert.assertNotNull(null);
+	public void failed_NullPointerException() {
+		String s = null;
+		System.out.println(s.length());
 	}
 }
