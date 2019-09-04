@@ -36,5 +36,3 @@ public class MyTest_beforeFailed {
         System.out.println(s.length());
     }
 }
-
-
