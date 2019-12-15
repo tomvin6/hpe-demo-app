@@ -12,8 +12,6 @@ public class MyTest_beforeClassFailedAssertion {
 		Assert.assertNotNull(null);
 	}
 
-
-
 	@Test
 	public void passed1() {
 		Assert.assertNotNull("aaa");
