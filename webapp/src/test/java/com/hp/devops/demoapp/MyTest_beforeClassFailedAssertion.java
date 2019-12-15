@@ -22,6 +22,7 @@ public class MyTest_beforeClassFailedAssertion {
 		Assert.assertNotNull("aaa");
 	}
 
+
 	@Test
 	public void failed_Assertion() {
 		Assert.assertNotNull(null);
