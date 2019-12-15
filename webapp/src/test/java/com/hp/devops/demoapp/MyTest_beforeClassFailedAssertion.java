@@ -28,6 +28,10 @@ public class MyTest_beforeClassFailedAssertion {
 		Assert.assertNotNull(null);
 	}
 
+
+
+
+
 	@Test
 	public void failed_NullPointerException() {
 		String s = null;
