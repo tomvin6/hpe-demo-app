@@ -29,8 +29,6 @@ public class MyTest_beforeClassFailedAssertion {
 
 
 
-
-
 	@Test
 	public void failed_NullPointerException() {
 		String s = null;
