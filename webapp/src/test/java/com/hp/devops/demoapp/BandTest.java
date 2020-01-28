@@ -60,7 +60,6 @@ public class BandTest {
 		Assert.assertEquals(band.logo, "");
 		Assert.assertEquals(band.song, "Song");
 		Assert.assertEquals(band.votes, 10);
-
 	}
 
 	@Test
