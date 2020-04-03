@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  * Date: 25/11/14
  * Time: 14:21
  * To change this template use File | Settings | File Templates.
- */
+   */
 public class BandTest {
 	//private String NON_RELATED;
 	private JSONObject test;
@@ -36,7 +36,7 @@ public class BandTest {
 			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
-		}
+		  }
 	}
 
 	@Test
