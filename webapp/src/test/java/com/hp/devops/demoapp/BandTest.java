@@ -1,13 +1,10 @@
 package com.hp.devops.demoapp;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import java.security.InvalidParameterException;
 
@@ -18,21 +15,12 @@ import java.security.InvalidParameterException;
  * Time: 14:21
  * To change this template use File | Settings | File Templates.
  */
-@RunWith(Parameterized.class)
 public class BandTest {
 	//private String NON_RELATED;
 	private JSONObject test;
 
-	@Parameterized.Parameters
-	public static Object[][] data() {
-		return new Object[10][0];
-	}
-
-	public BandTest() {
-	}
-
 	@Before
-	public void beforeEach() throws JSONException {
+	public void beforeEach() {
 		test = new JSONObject();
 		test.put("id", 1);
 		test.put("name", "Name");
