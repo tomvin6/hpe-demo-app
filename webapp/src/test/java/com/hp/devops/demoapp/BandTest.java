@@ -55,6 +55,8 @@ public class BandTest {
 		test.remove("name");
 		test.remove("logo");
 		Band band = new Band(test);
+		
+		
 		Assert.assertEquals(band.id, 1);
 		Assert.assertEquals(band.name, "");
 		Assert.assertEquals(band.logo, "");
