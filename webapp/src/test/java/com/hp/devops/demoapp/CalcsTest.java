@@ -20,16 +20,19 @@ public class CalcsTest {
 	@Test
 	public void sum_test_A() {
 		Calcs.someTouchedMethod();
+		// comment
 		assertEquals(3, Calcs.sum(1, 2));
 	}
 
 	@Test
 	public void sum_test_B() {
+		// comment
 		assertEquals(7, Calcs.sum(5, 2));
 	}
 
 	@Test
 	public void sub_test_A() {
+		// comment
 		assertEquals(3, Calcs.sub(5, 2));
 	}
 
