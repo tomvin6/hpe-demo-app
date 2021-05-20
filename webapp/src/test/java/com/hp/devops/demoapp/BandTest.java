@@ -56,10 +56,13 @@ public class BandTest {
 		test.remove("logo");
 		Band band = new Band(test);
 		Assert.assertEquals(band.id, 1);
+
+
 		Assert.assertEquals(band.name, "");
 		Assert.assertEquals(band.logo, "");
 		Assert.assertEquals(band.song, "Song");
 		Assert.assertEquals(band.votes, 10);
+
 	}
 
 	@Test
